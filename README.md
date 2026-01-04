@@ -36,3 +36,9 @@ The bot should start and connect to the selected channel.
 - Ensure the bot has permission to read and send messages in the channel.
 - Use this channel exclusively for bot operations to avoid conflicts.
 - To stop the bot, press `Ctrl+C` in the terminal.
+- **Adding a file with the same name will overwrite the existing file**, so the old file will no longer be accessible.
+
+## Special Script: delete_last.py
+- The `delete_last.py` script deletes the last message sent by the bot.  
+- **Use it only when necessary.**  
+- After running `delete_last.py`, you must **reset all settings** and set `LAST_MSG.txt` back to `-1` to avoid issues.
