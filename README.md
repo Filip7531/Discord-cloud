@@ -12,14 +12,14 @@ python3 -m venv venv
 
 2. Activate the virtual environment:
 - On Linux / macOS:
-source venv/bin/activate
+`source venv/bin/activate`
 - On Windows (Command Prompt):
-venv\Scripts\activate.bat
+`venv\Scripts\activate.bat`
 - On Windows (PowerShell):
-venv\Scripts\Activate.ps1
+`venv\Scripts\Activate.ps1`
 
 3. Install required packages:
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 4. Configure the bot:
 - Paste your **bot token** into `token.txt`.
