@@ -33,7 +33,7 @@ python3 app.py
 The bot should start and connect to the selected channel.
 
 ## Notes
-- You can write in the channel where files are uploaded.
+- **You can write in the channel where files are uploaded.**
 - Ensure the bot has permission to read and send messages in the channel.
 - Use this channel exclusively for bot operations to avoid conflicts.
 - To stop the bot, press `Ctrl+C` in the terminal.
